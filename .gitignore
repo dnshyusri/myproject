@@ -1,0 +1,31 @@
+#--- IDE / Development Files ---
+.idea/
+.vscode/
+*.iml
+.vagrant
+Vagrantfile
+
+#--- Composer Dependencies & Lock ---
+/vendor/
+composer.lock
+
+#--- CodeIgniter Specific Files ---
+/writable/cache/*
+!/writable/cache/index.html
+/writable/logs/*
+!/writable/logs/index.html
+/writable/session/*
+!/writable/session/index.html
+/writable/uploads/*
+!/writable/uploads/index.html
+/writable/debugbar/*
+!/writable/debugbar/.gitkeep
+/writable/**/*.db
+/writable/**/*.sqlite
+
+# Your sensitive environment file (CRITICAL!)
+.env
+
+#--- OS Specific Files ---
+.DS_Store
+Thumbs.db
